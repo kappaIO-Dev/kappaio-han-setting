@@ -1,0 +1,203 @@
+/******************************************************************************
+	The MIT License (MIT)
+	
+	Copyright (c) 2011 Kapparock LLC
+	
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+******************************************************************************/
+.wd-row {
+	padding:10px 10px;
+	width:100%;
+}
+.wd-container {
+	width:384px;
+	height:384px;
+	border: solid 1px #e2e2e2;
+	border-radius: 4px;
+	margin: 10px 10px;
+	padding:10px 10px;
+	display: inline-block;
+	float:left;
+}
+.wd-container,
+.wd-container div,
+.wd-container span 
+{
+	box-sizing: border-box;
+}
+.wd-container:hover, 
+.wd-container:focus {
+	background-color:#F9F9F9;
+}
+.dev-table {
+	margin: 10px 10px 10px 10px;
+}
+.btn-state {
+	display: inline-block;
+	padding:12px 12px;
+	width:100%;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.wd-container .btn-primary {
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	background-image: inherit;
+}
+.btn-xs {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+.btn:hover, .btn:focus {
+	color: #333;
+	text-decoration: none;
+}
+.btn-success:hover, 
+.btn-success:focus, 
+.btn-success:active, 
+.btn-success.active, 
+.open .dropdown-toggle.btn-success {
+	color: #fff;
+	background-color: #47a447;
+	border-color: #398439;
+}
+.btn-success:active, 
+.btn-success.active, 
+.open .dropdown-toggle.btn-success {
+	background-image: none;
+}
+.btn-state.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active,
+.btn-default.active, 
+.open .dropdown-toggle.btn-default {
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}
+.btn-state.btn-glow {
+	box-shadow: 0px 0px 19px 1px #357ebd;
+}
+.inner-intf{
+	width:340px;
+	height:300px;
+	border: solid 1px #e2e2e2;
+	border-radius:4px;
+	margin: 0px;
+	padding:10px 10px;
+	background-color:#fff;
+}
+.inner-intf, .inner-intf-shadow {
+	box-shadow: 5px 5px 10px 1px #D3D3D3;
+}
+.float-panel {
+	position: absolute;
+	bottom: 64px;
+	left:20px;
+	z-index:9999;
+}
+.float-panel .list-area{
+	margin:5px 0px;
+}
+.float-panel .list-entry{
+	display : inline-block;
+	position:relative;
+	
+	/*width:50%;*/
+}
+.float-panel .btn {
+	cursor: pointer;
+	width:100%;
+}
+div.wd-content {
+	display:block;
+	position:relative;
+	width:100%;
+}
+/* color picker */
+
+.cp-cursor {
+	display: block;
+	z-index: 9999;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 0px;
+	left: 0px;
+	border: 2px solid rgb(64, 64, 64);
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
+}
+.cp-canvas {
+	position: absolute;
+	border-radius:4px;
+	border: 1px solid #e2e2e2;
+	top: 0;
+	left: 0;
+}
+.cp-canvas span {
+	left: 8%;
+	top: 40%;
+	position: relative;
+	font-weight: bold;
+	font-size: 25px;
+	color: #D5D5D5;
+}
+.dev-list {
+	height:100%;
+	border-top:1px solid #e2e2e2;
+	border-bottom:1px solid #e2e2e2;
+	padding:5px 0px;
+}
+.dev-list > .top-row {
+	position:relative;
+	width:100%;
+}
+.dev-list > .top-row > .nwk-addr{
+	width:30px;
+	display:inline-block;
+}
+.dev-list .show-hide {
+	padding:0px 5px;
+	font-size: 12px;
+	border:0px;
+	margin-right:5px;
+	width:16px;
+	height:16px;
+	color:#fff;
+	background-color:#333;
+}
+
