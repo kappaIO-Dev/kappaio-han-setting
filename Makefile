@@ -53,7 +53,7 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)$(INSTALLATION_DIR)
 	$(CP) -r ./files/webapp/* $(1)$(INSTALLATION_DIR)
 	$(INSTALL_DIR) $(1)/tmp
-	$(CP) -r ./files/register $(1)/tmp
+	#$(CP) -r ./files/register $(1)/tmp
 endef
 
 define Build/Compile
