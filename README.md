@@ -8,4 +8,4 @@ This web UI is the dashboard for controlling your HAN:
 </div>
 
 
-<a href="http://www.kapparock.com">![logo](https://github.com/kapparock/hello-world-restful/raw/master/img/logo-name200x32.png)</a>
+<a href="https://kappa.io">kappaIO</a>
