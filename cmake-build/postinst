@@ -1,0 +1,11 @@
+#!/bin/sh
+WIDGET_NAME="kappaio-han-setting"
+WIDGET_ROOT="/usr/lib/kappaio/app/kappaio-han-setting"
+WIDGET_INDEX="index.html"
+echo "Registering new webapp:" 
+echo "Name : ${WIDGET_NAME}"
+echo "Root : ${WIDGET_ROOT}"
+echo "Index: ${WIDGET_INDEX}"
+/usr/lib/rsserial/widget_registry_mgr "${WIDGET_NAME}" "${WIDGET_ROOT}" "${WIDGET_INDEX}" "POST"
+echo "Restarting kappaio"
+/etc/init.d/kappaio-watch restart
